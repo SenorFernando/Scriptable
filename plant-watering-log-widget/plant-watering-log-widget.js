@@ -8,7 +8,7 @@
 
 // Setup -----------
 // Enter the URL of your Google sheet
-let url = "<YOUR GOOGLE SHEETS URL>"
+let url = "<YOUR GOOGLE SHEETS URL >"
 
 
 // Widget
@@ -40,10 +40,10 @@ async function createWidget() {
 
 	// Populate the widget. Tested with 4 rows
 	for (var i = 2; i < data.values.length; i++) {
-		let plantname = data.values[i][0]
-		let plantdate = data.values[i][1]
-		let plantdays = data.values[i][2]
-		let plantthreshold = data.values[i][3]
+		let plantname = data.values[i][1]
+		let plantdate = data.values[i][2]
+		let plantdays = data.values[i][3]
+		let plantthreshold = data.values[i][4]
 
 		// Plant stack
 		const h1 = w.addStack()

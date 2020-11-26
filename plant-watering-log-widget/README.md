@@ -1,5 +1,6 @@
 # Plant Watering Log
-This is an integration of a Scriptable widget, an IOS Shortcut and Google sheets. The objective is to keep a plant watering log and display the number of days that have passed since the plant was last wattered in a Scriptable widget. Once you physically water your plant, run the IOS shortcut to update the Google sheet
+<img src="Action.gif" alt="Widget in action" width="250" >
+This is an integration of a Scriptable widget, an IOS Shortcut in a stacked IOS widget, having Google Sheets as a database. The objective is to keep a plant watering log and display the number of days that have passed since the plant was last wattered in a Scriptable widget. Once you physically water your plant, run the IOS shortcut to update the Google sheet
 
 ## Setup
 

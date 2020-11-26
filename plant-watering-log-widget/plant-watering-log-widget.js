@@ -82,7 +82,7 @@ async function createWidget() {
 	titleTxt.textColor = colorTXT()
 	titleTxt.font = new Font("Helvetica Bold", 14)
 
-	let lastTxt = w.addText("Days since last wattering")
+	let lastTxt = w.addText("Days since last watering")
 	lastTxt.font = new Font("Helvetica Light", 9)
 
 	w.addSpacer(8)

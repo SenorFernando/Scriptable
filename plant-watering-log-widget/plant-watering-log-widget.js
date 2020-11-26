@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: blue; icon-glyph: magic;
 
-// Author: SenorFernando
+// Author: @SenorFernando
 // Date: 2020/11/25
 // Description: Scriptable widget to track days since last watered plants. This widget should be used in conjunction with the IOS Shortcut "Plant Water Log" found in the same repository and a specially formatted Google sheet, details on the same repo. Displays the date and number of days that have passed.
 

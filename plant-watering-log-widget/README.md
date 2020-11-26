@@ -5,15 +5,15 @@ This is an integration of a Scriptable widget, an IOS Shortcut and Google sheets
 
 You must complete the setup before downloading the Shortcut or running the Scriptable widget
 
-
-### Google Stuff
-
+---
+### Google Section
 ##### Google Sheet
 Assuming you already have a Google account, create a new empty sheet in [Google Sheets](sheets.google.com)
 1. Give your sheet any , I named mine "Log"
 2. Click on "Share" and click on "Anyone with the link", then click "Done". This will allow us to update the sheet using the Google scripts
 3. Go to File / Spreadsheet settings / Calculation and change "Recalculation" to *On change and every hour*
 4. Copy the **sheet ID**, you can find it in the URL. We will use it later
+
 ``
 https://docs.google.com/spreadsheets/d/**YOURSHEETID**/edit#gid=0
 ``
@@ -38,6 +38,7 @@ The first script, *Initializer*, will set up the empty sheet we have created and
 *Google will ask for Authorization, click "Review Permissions" and grant access. It might say the app has not been verified, this is expected, click "Advcanced / Go to initializer" and Allow*
 
 8. Copy the web app URL and save the web app ID as we will need it later
+
 ``
 https://script.google.com/macros/s/YOUR WEB APP ID GOES HERE/exec
 ``
@@ -58,6 +59,7 @@ We will basically follow the same steps as in the Initializer but now we will se
 *Google will ask for Authorization, click "Review Permissions" and grant access. It might say the app has not been verified, this is expected, click "Advcanced / Go to logger" and Allow*
 
 8. Copy the web app URL and save the web app ID as we will need it later
+
 ``
 https://script.google.com/macros/s/YOUR WEB APP ID GOES HERE/exec
 ``

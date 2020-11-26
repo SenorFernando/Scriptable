@@ -12,7 +12,7 @@ Collection of widgets for Scriptable
 [Plant Watering Log Widget](plant-watering-log-widget/README.md), a widget to track days since you last watered plants. This widget works in conjunction with an IOS Shortcut, a Google sheet and Google scripts.
 The widget displays the plant name, date and number of days that have passed since the last watering record.
 
-<img src="plant-watering-log-widget/Log.jpg" alt="Log example" height="200"> <img src="plant-watering-log-widget/Threshold.jpg" alt="Over threshold" height="200"> <img src="plant-watering-log-widget/NoData.jpg" alt="Key error" height="200">
+<img src="plant-watering-log-widget/Action.gif" alt="Widget in action" height="200"> <img src="plant-watering-log-widget/Log.jpg" alt="Log example" height="200"> <img src="plant-watering-log-widget/Threshold.jpg" alt="Over threshold" height="200"> <img src="plant-watering-log-widget/NoData.jpg" alt="Key error" height="200">
 
 ---
 ### IP Address Widget

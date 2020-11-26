@@ -82,15 +82,15 @@ async function createWidget() {
 	titleTxt.textColor = colorTXT()
 	titleTxt.font = new Font("Helvetica Bold", 14)
 
-	let lastTxt = w.addText("Days since last watering")
-	lastTxt.font = new Font("Helvetica Light", 9)
-
-	w.addSpacer(8)
-
 	try {
+
 		const req = new Request(url);
 		const data = await req.loadJSON();
 		let datarefresh = data.values[0][0]
+
+		let lastTxt = w.addText("Days since last watering")
+	  lastTxt.font = new Font("Helvetica Light", 9)
+	  w.addSpacer(8)
 
 		// Populate the widget. Tested with 4 rows
 		for (var i = 1; i < data.values.length; i++) {
@@ -134,12 +134,12 @@ async function createWidget() {
 		s1.addSpacer(5)
 	}
 	catch (e) {
-		w.addSpacer(4)
+		w.addSpacer()
     let errTxt = w.addText("No Data Available")
-    errTxt.font = Font.boldSystemFont(16)
+    errTxt.font = Font.boldSystemFont(20)
     errTxt.textColor = new Color("#333333")
     errTxt.centerAlignText()
-		w.addSpacer(4)
+		w.addSpacer(2)
     let errTxt2 = w.addText("Check your Google Sheet ID or API key")
     errTxt2.font = Font.boldSystemFont(10)
     errTxt2.textColor = new Color("#333333")

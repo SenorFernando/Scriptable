@@ -97,7 +97,7 @@ Now to the easy part
 
 **Note:**, don't run the Scriptable widget, the Shortcut will run it the first time as part of the configuration 
 
-* Download the [plant-watering-log-widget](plant-watering-log-widget.js)
+* Download the [plant-watering-log-widget.js](plant-watering-log-widget.js)
 * Download the [Plant log entry Shortcut](https://www.icloud.com/shortcuts/42d8fb36c95c4b18a0d47eda7ca9c867), have your initializer web app ID and logger ID handy, they are required during the shortcut Configration process
 
 ---

@@ -19,7 +19,7 @@ The widget displays the plant name, date and number of days that have passed sin
 [IP Address Widget](ip-address-widget/currentip.js) ,a widget that shows your current external IP Address, IP location city, ISP name.
 IP in screenshot is only representative.
 
-<img src="ip-address-widget/widget.JPG" alt="IP Address" height="200">
+<img src="ip-address-widget/widget.JPG" alt="IP Address" height="200"> <img src="ip-address-widget/nonetwork.jpg" alt="IP Address" height="200">
 
 --- 
 ### Plant Monitor Widget

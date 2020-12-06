@@ -93,9 +93,9 @@ We will need an API key to *read* from the Google sheet. This requires setting u
 Copy your API key and save it somewhere handy, we will need it later
 
 ### Shortcut and Scriptable widget
-Now to the easy part
+Now to the easy part, lets download some stuff.
 
-**Note:**, don't run the Scriptable widget, the Shortcut will run it the first time as part of the configuration 
+**Note:** Please run the Shortcut first, the Scriptable widget will execute with the Shortcut as part of the initial configuration. 
 
 * Download the [plant-watering-log-widget.js](plant-watering-log-widget.js)
 * Download the [Plant log entry Shortcut](https://www.icloud.com/shortcuts/42d8fb36c95c4b18a0d47eda7ca9c867), have your initializer web app ID and logger ID handy, they are required during the shortcut Configration process
@@ -104,7 +104,7 @@ Now to the easy part
 
 Finally, once you have completed the setup process, add a Scriptable widget and select the *plant-watering-log-widget* and select *Run Script* on the "When Interacting" field, add a Shortcut and select the *Plant Log Entry* shortcut
 
-The Scriptable widget will display "Alerts are not supported in a widget." disregard, it will clear once the setup is complete
+The Scriptable widget will display "Alerts are not supported in a widget." disregard, it will clear once the setup is complete, remember we are running the shortcut first.
 
 Run the Shortcut to add your plant names and day thresholds, once done, the Shortcut will open the Scriptable widget initial configuration, have your sheet ID and API key at hand
 

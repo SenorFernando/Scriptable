@@ -10,9 +10,9 @@ Collection of widgets for Scriptable
 
 --- 
 ### Vaccine Finder Widget
-[Vaccine Finder widget](#VaccineFinder/README.md), a widget that displays available COVID vaccine appointments at your local CVS / Walgreens.
+A widget that displays available COVID vaccine appointments at your local CVS / Walgreens.
 
-The widget runs a simple setup process whn loaded initially to capture location and pasteboard preferences (copy), displays current availability for both chains
+The widget runs a simple setup process when loaded initially to capture location and pasteboard preferences (copy), displays current availability for both chains
 
 <img src="VaccineFinder/Booked.jpg" alt="Widget 'All Boked' for both chains" height="200"> <img src="VaccineFinder/Available.jpg" alt="Widget with available appointments and pasteboard enabled" height="200">
 

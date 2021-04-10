@@ -24,7 +24,7 @@ if (!fm.fileExists(dir) || !fm.fileExists(dir + locationFile)){
     return
   }
   else {
-    searchCity = alert.textFieldValue()
+    searchCity = alert.textFieldValue().toUpperCase().trim()
   }
   let alert2 = new Alert()
   alert2.title = "Please enter your state"
@@ -36,7 +36,18 @@ if (!fm.fileExists(dir) || !fm.fileExists(dir + locationFile)){
     return
   }
   else {
-    searchState = alert2.textFieldValue()
+    searchState = alert2.textFieldValue().toUpperCase().trim()
+    // If state had more than 3 characters alert and exit setup
+    if (searchState.length > 2) {
+      let alertErr = new Alert()
+      alertErr.title = "Error"
+      alertErr.message = "Your state entry '" + searchState + "'' had more than 2 characters and we were expecting the abbreviation.\nPlease run the setup again"
+      alertErr.addCancelAction("Exit")
+      eventIdx = await alertErr.presentAlert()
+      if (eventIdx == -1) {
+        return
+      }
+    }
   }
   // Ask if pasteboard is wanted
   let alert3 = new Alert()
@@ -60,7 +71,7 @@ if (!fm.fileExists(dir) || !fm.fileExists(dir + locationFile)){
     fm.createDirectory(dir)
   }
   // Write to file
-  fm.writeString(dir + locationFile, searchCity.toUpperCase() + "\n" + searchState.toUpperCase() + "\n" + pasteAns)
+  fm.writeString(dir + locationFile, searchCity + "\n" + searchState + "\n" + pasteAns)
 
   // Thanks Alert
   let alertThanks = new Alert()
